@@ -19,14 +19,14 @@ Input:
 ```python
 sentence = "c/o midsternal chest pain radiating to right arm and neck since 0530 today."
 phrase = "0530 today"
-note_date = "2016-01-11 13:12:00"
+note_date = "2018-01-12 13:12:00"
 ```
 
 Output:
 ```plaintext
 Sentence: c/o midsternal chest pain radiating to right arm and neck since 0530 today
 Phrase: 0530 today
-Time Detected: 01/11/2016 05:30:00
+Time Detected: 01/12/2018 05:30:00
 ```
 
 ---
@@ -35,7 +35,7 @@ Time Detected: 01/11/2016 05:30:00
 Uses multiple regular expressions to extract datetime-related patterns from a clinical note.
 
 #### Key Features:
-- Matches formats like `10:30 PM yesterday`, `0530`, and `1/12/2023`.
+- Matches formats like `10:30 PM yesterday`, `0530`, and `1/12/2018`.
 - Supports relative terms like `today`, `yesterday`, and `last night`.
 - Prints matches for each pattern.
 
