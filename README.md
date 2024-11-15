@@ -6,7 +6,7 @@ This repository contains two Python scripts for extracting and processing dateti
 
 ## Scripts Overview
 
-### 1. `datetime_extraction_single.py`
+### 1. `parsedatetime.py`
 Processes a single clinical note using `parsedatetime` to extract datetime expressions.
 
 #### Key Features:
@@ -31,7 +31,7 @@ Time Detected: 01/12/2018 05:30:00
 
 ---
 
-### 2. `regex_datetime_extraction_single.py`
+### 2. `REGEX.py`
 Uses multiple regular expressions to extract datetime-related patterns from a clinical note.
 
 #### Key Features:
